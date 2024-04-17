@@ -4,5 +4,33 @@ body{
 header{
     display: flex;
     gap: 20px;
-    /* background:url('images/bg-header.png'); */
+    align-items: center;
+    background-color: #fcd7d3;
+    /* background-image:url('images/bg-header.png'); */
+   
+    /* background-repeat: no-repeat; */
+    
+}
+.make-flower{
+    padding: 150px;
+}
+.heading-title{
+    font-size: 70px;
+    font-weight: 800;
+}
+.heading-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.shop-now-btn{
+    background-color:#E55473 ;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+.make-flower img{
+    padding-bottom: 0;
 }
