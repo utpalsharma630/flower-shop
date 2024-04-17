@@ -1,0 +1,8 @@
+body{
+    font-family:sans-serif ;
+}
+header{
+    display: flex;
+    gap: 20px;
+    /* background:url('images/bg-header.png'); */
+}
