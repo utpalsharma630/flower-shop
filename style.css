@@ -10,7 +10,7 @@ header{
     /* background-image:url('images/bg-header.png');
     
     background-repeat: no-repeat; */
-    width: 100%;
+    max-width: 1920px;
     
 }
 .make-flower{
@@ -51,16 +51,16 @@ header{
     font-weight: 400;
     
 }
-main{
-    max-width: 80%;
-    margin: auto;
-}
+
 .flowers{
+    max-width: 1440px;
     display: flex;
-    gap: 50px;
+    gap: 150px;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: auto;
+    margin-top: 50px;
+    
 }
 .flowers-template{
     text-align: center;
@@ -100,4 +100,57 @@ main{
 .flowers h1{
     font-size: 24px;
     font-weight: 700;
+}
+.flower-service{
+    max-width: 1440px;
+    margin: auto;
+    background-color:#e6e4e4 ;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.service-content{
+    margin: 30px;
+}
+.service-content h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.hot-deal{
+    background-color:#f8eff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+    text-align: center;
+}
+.hot-deal-left{
+    width: 50%;
+    margin: 40px 10px;
+    padding-left: 30px ;
+}
+.hot-deal-right{
+    width: 40%;
+    margin: 50px 10px;
+}
+.hot-deal-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-title span{
+    color: #E55473;
+
+}
+.hot-deal-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+.image-item{
+    display: flex;
+    gap: 15px;
+    max-width: 1440px;
+    margin:60px auto;
 }
