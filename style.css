@@ -23,6 +23,7 @@ header{
 .heading-description{
     font-size: 18px;
     font-weight: 400;
+    padding: 20px 0;
 }
 .shop-now-btn{
     background-color:#E55473 ;
@@ -150,7 +151,54 @@ header{
 }
 .image-item{
     display: flex;
-    gap: 15px;
+    gap: 22px;
     max-width: 1440px;
     margin:60px auto;
+}
+.latest-deals{
+    max-width: 1440px;
+    margin:60px auto;
+    background-image: url('images/bg-footer.png');
+
+    background-repeat: no-repeat;
+}
+.search{
+    
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.search button{
+    margin-bottom: 50px;
+}
+.search input{
+    font-size: 18px;
+    padding: 5px;
+    border: 0;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+.footer-title{
+    font-size:48px;
+    font-weight: 800;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: gainsboro;
 }
