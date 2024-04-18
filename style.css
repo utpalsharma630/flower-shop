@@ -1,14 +1,16 @@
 body{
     font-family:sans-serif ;
+    
 }
 header{
     display: flex;
     gap: 20px;
     align-items: center;
     background-color: #fcd7d3;
-    /* background-image:url('images/bg-header.png'); */
-   
-    /* background-repeat: no-repeat; */
+    /* background-image:url('images/bg-header.png');
+    
+    background-repeat: no-repeat; */
+    width: 100%;
     
 }
 .make-flower{
@@ -33,4 +35,69 @@ header{
 }
 .make-flower img{
     padding-bottom: 0;
+}
+.featured-flower{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.featured-flower h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-flower p{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+main{
+    max-width: 80%;
+    margin: auto;
+}
+.flowers{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.flowers-template{
+    text-align: center;
+}
+.flowers-template-first{
+    background-color:#FFD4CF;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+}
+.flowers-template-first img{
+    width: 200px;
+    padding:30px 25px 0 25px;
+    
+}
+.flowers-template-second{
+    background-color:#8becf3;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+}
+.flowers-template-second img{
+    width: 200px;
+    height: 280px;
+    padding:30px 25px 0 25px;
+    
+}
+.flowers-template-third{
+    background-color:#BEE49D;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+}
+.flowers-template-third img{
+    width: 200px;
+    height: 280px;
+    padding:30px 25px 0 25px;
+    
+}
+.flowers h1{
+    font-size: 24px;
+    font-weight: 700;
 }
