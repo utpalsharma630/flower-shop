@@ -173,12 +173,16 @@ header{
 }
 .search button{
     margin-bottom: 50px;
+    padding: 10px;
 }
 .search input{
     font-size: 18px;
-    padding: 5px;
+    padding: 10px;
     border: 0;
     margin-bottom: 50px;
+    padding-right: 150px;
+    border-radius: 5px;
+    
 }
 footer{
     background-color: black;
